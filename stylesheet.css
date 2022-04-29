@@ -1,0 +1,177 @@
+/* 
+STRUCTURE:      STRUCTURE SETTINGS STRUCTURE:       FONT/TEXT SETTINGS STRUCTURE:                 
+    body            width/height                        font-family
+    header          background-color/image              font-size
+    nav             padding                             font-weight
+    content         border-style/width/radius/color     font-color
+    footer          margin-left/right/top/bottom        text-align
+
+ORDER OF SETTINGS:
+    FONT/TEXT
+    MEDIA
+    STRUCTURE
+*/
+
+/*-------------------*/
+/*--Global Settings--*/
+/*-------------------*/
+
+body {
+    /*font settings*/
+    font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*structure settings*/
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 5%; 
+    border-color: #333;
+}
+
+header {
+    /*font/text settings*/
+    font-size: 45px;
+    color: #f2f2f2;
+    text-align: left;
+    
+    /*structure settings*/
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 5%;
+    padding-bottom: 70px;
+    background-color: #333;   
+}
+
+header h1 {
+    /*structure settings*/
+    height: 150px;
+    line-height: 150px;
+    position: absolute;   
+}
+
+header #portrait {  
+    /*structure settings*/
+    width: 300px;
+    height: 300px;  
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: black;
+    vertical-align: center;
+    margin-left: 50%;  
+    position: absolute;
+}
+
+nav {
+    /*structure settings*/
+    background-color: #333;
+    overflow: hidden;
+  }
+
+ nav a {
+    /*font settings*/
+    font-size: 17px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+
+    /*structure settings*/
+    padding: 14px 16px;
+    float: left;
+  }
+
+ nav a:hover {
+    /*font settings*/
+    color: black;
+
+    /*structure settings*/
+    background-color: #ddd;   
+  }
+
+nav a.active {
+    /*font settings*/
+    color: white;
+
+    /*structure settings*/
+    background-color: #686e6c;
+  }
+
+/*----------------------*/
+/*--Home.html Settings--*/
+/*----------------------*/
+
+.homecontent {
+    /*structure settings*/
+    padding-left: 10px;
+}
+
+.homecontent h1 {
+    /*font settings*/
+    text-decoration: underline;
+}
+
+.homecontent p {
+    /*font settings*/
+    font-size: 14pt;
+
+    /*structure settings*/
+    margin-top: -10px;
+}
+
+/*----------------------------*/
+/*--Lebenslauf.html Settings--*/
+/*----------------------------*/
+
+.lebenslaufcontent {
+    /*structure settings*/
+    background-color: #58545c;
+}
+
+.lebenslaufcontent #lebenslauf {
+    /*structure settings*/
+    margin-top: 5%;
+}
+
+/*-----------------------------*/
+/*--Kompetenzen.html Settings--*/
+/*-----------------------------*/
+
+.kompetenzencontent {
+    /*structure settings*/
+    height: 300px;
+}
+
+.kompetenzencontent h1 {
+    /*font settings*/
+    text-decoration: underline;    
+
+    /*structure settings*/
+    padding-left: 10px;
+
+}
+
+.kompetenzencontent table{
+    /*font settings*/
+    font-size: 14pt;
+    text-align: center;
+
+    /*structure settings*/
+    margin-top: 50px;
+}
+
+.kompetenzencontent th {
+    /*font settings*/
+    font-size: 22pt;
+    text-decoration: underline;
+}
+
+/*----------------------------*/
+/*--Zertifikate.html Settings--*/
+/*----------------------------*/
+
+.zertifikatecontent {
+    /*structure settings*/
+    background-color: #58545c;
+}
+
+

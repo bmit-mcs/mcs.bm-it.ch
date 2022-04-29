@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <!--head-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Title-->
+        <title>Portfolio von Sean McGuinness</title>
+        <!--Link to CSS-->
+        <link rel="stylesheet" href="../stylesheet.css">
+     </head>
+
+    <!--
+    BODY STRUCTURE
+        header
+        nav
+        div "content"
+        footer
+    -->
+
+    <!--body-->
+    <body>
+
+        <!--header-->
+        <header>
+            <!--Title-->
+            <h1>Sean McGuinness</h1>
+            <!--Image-->
+            <img id="portrait" src="../header_medien/portraitcropped.jpg" alt="Portrait">
+        </header>
+
+        <!--navbar-->
+        <nav>
+            <!--Set Page to Active + Navbar links-->
+            <a href="../home/home.html">Home</a>
+            <a class="active" href="../lebenslauf/lebenslauf.html">Lebenslauf</a>
+            <a href="../kompetenzen/kompetenzen.html">Kompetenzen</a>
+            <a href="../zertifikate/zertifikate.html">Zertifikate</a>           
+        </nav>
+
+        <!--Create class "lebenslaufcontent"-->
+        <div class="lebenslaufcontent">
+            <!--Embedded Pdf-->
+            <iframe 
+                id="lebenslauf" 
+                src="../lebenslauf/medien/lebenslauf_sean_mcguinness.pdf#toolbar=0" 
+                width="100%" 
+                height="1200px"
+                frameBorder="0"       
+            ></iframe>
+        </div>
+    </body>
+</html>
